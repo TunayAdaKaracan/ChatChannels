@@ -1,0 +1,7 @@
+name: ChatChannels
+version: '${project.version}'
+main: dev.kutuptilkisi.chatchannels.Chatchannels
+api-version: 1.17
+authors: [ Kutup_Tilkisi ]
+description: Chat Channels For Servers
+website: kutuptilkisi.dev
