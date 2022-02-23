@@ -1,0 +1,26 @@
+enabled: true
+
+default-chat: "general"
+
+chats:
+  general:
+    display: "General Chat"
+    distance: 0 # 0 for unlimited distance and also communication between worlds
+    permission:
+      requires: false
+      perm: ""
+  admin:
+    display: "Admin Chat"
+    distance: 0 # 0 for unlimited distance and also communication between worlds
+    permission:
+      requires: true
+      perm: "chatchannels.admin"
+  local:
+    display: "Local Chat"
+    distance: 50 # 0 for unlimited distance and also communication between worlds
+    permission:
+      requires: false
+      perm: ""
+
+whisper:
+  enabled: true
